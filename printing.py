@@ -1,0 +1,1 @@
+print("The summation of 7 and 9 is",7+9)
