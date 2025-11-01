@@ -26,6 +26,7 @@ print(marks[0:7])
 print(marks[1:9])
 print(marks[1:9:3])
 
+# list comprehension
 lst = [i*i for i in range(10)]
 print(lst)
 lst = [i*i for i in range(10) if i%2==0]
