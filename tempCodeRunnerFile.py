@@ -1,1 +1,2 @@
-Samit
+
+print("Age:", info['age'])
