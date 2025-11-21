@@ -6,9 +6,8 @@ def details():
     return print(f"Name: {name}\nAge: {age}\nSalary: {salary}")
 
 def add(a,b):
-    # a = int(input("Enter first number: "))
-    # b = int(input("Enter second number: "))
     return print("The sum is",a+b)
 
-add(5,6)
-details()
+if __name__ == "__main__":
+    add(5,6)
+    details()
