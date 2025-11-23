@@ -1,2 +1,5 @@
 Hello, world!Hello again!Appending using with statement.
 Appending using with statement.
+extra line 3
+extra line 4
+extra line 5
