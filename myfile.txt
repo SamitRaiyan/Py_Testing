@@ -1,1 +1,2 @@
-Hello, world!Hello again!
+Hello, world!Hello again!Appending using with statement.
+Appending using with statement.
