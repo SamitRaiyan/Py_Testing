@@ -5,11 +5,11 @@ class MyClass: # defining a class
   def show(self): 
     print(f"Value is {self._value}")
     
-  @property # works as getter.
+  @property # works as getter. this makes the method behave like an attribute (it becomes a property with @property)
   def ten_value(self):
       return 10* self._value
     
-  @ten_value.setter # works as setter
+  @ten_value.setter # works as setter. it behaves like an attribute (it becomes a setter property with .setter)
   def ten_value(self, new_value):
       self._value = new_value/10
 
