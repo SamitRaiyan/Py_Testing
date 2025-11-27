@@ -8,7 +8,7 @@ def decorator_function(fx):  # fx = function to be decorated (main function as i
         return output  # Return the result of the main function
     return mfx  # Return the modified function inside the decorator function
 
-@decorator_function
+@decorator_function # Decorating the add function. Now add = decorator_function(add)
 def add():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
