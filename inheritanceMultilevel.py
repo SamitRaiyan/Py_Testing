@@ -17,6 +17,7 @@ class Son(Father):
         print('Grandfather name :', self.grandFatherName)
         print("Father name :", self.fatherName)
         print("Son name :", self.sonName)
+        
 s1 = Son('Prince', 'Rampal', 'Lal mani')
 print(s1.grandFatherName)
 s1.print_name()

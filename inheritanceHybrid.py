@@ -20,3 +20,5 @@ class Student3(Student1, School):
 object = Student3()
 object.func1()
 object.func2()
+
+# it is a hybrid inheritance because Student1 and Student2 are inheriting School class which is hierarchical inheritance and Student3 is inheriting Student1 class which is single inheritance
