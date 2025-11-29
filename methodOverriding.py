@@ -12,7 +12,7 @@ class Circle(Shape):
       super().__init__(radius, radius)
 
     def area(self):
-        return 3.14 *  super().area()
+        return 3.14 *  super().area() #it is actually 3.14 * radius * radius
       
 # rec = Shape(3, 5)
 # print(rec.area())
