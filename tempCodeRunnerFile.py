@@ -1,1 +1,2 @@
-ter
+
+    print(i)
